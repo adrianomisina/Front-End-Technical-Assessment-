@@ -43,3 +43,18 @@
   color: #828282;
 }
 
+.date_titles1,
+.date_titles2 {
+  display: flex;
+}
+
+.date_titles1_p1,
+.date_titles2_p2 {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #240D57;
+}
+

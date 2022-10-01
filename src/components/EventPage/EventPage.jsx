@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './EventPage.module.css'
 import Cake from '../../assets/cake.png'
+import Calendar from '../../assets/calendar.png'
+import Ponit from '../../assets/point.png'
 
 const EventPage = () => {
   return (
@@ -14,15 +16,27 @@ const EventPage = () => {
         <div className={styles.date_container}>
           <div className={styles.date_titles}>
             <div className={styles.date_titles1}>
-              <span></span>
-              <p className={styles.date_titles1_p1}>18 August 6:00PM</p>
-              <p>to 19 August 1:00PM UTC +10</p>
+
+              <div>
+                <img src={Calendar} alt="calendar-icon" />
+              </div>
+
+              <div>
+                <p className={styles.date_titles1_p1}>18 August 6:00PM</p>
+                <p>to 19 August 1:00PM UTC +10</p>
+              </div>
             </div>
 
             <div className={styles.date_titles2}>
-              <span></span>
-              <p>Street name</p>
-              <p>Suburb, State, Postcode</p>
+
+              <div>
+                <img src={Calendar} alt="point-icon" />
+              </div>
+
+              <div>
+                <p className={styles.date_titles2_p2}>Street name</p>
+                <p>Suburb, State, Postcode</p>
+              </div>
             </div>
           </div>
         </div>
