@@ -19,10 +19,10 @@ const Home = () => {
                 had events.
             </h1>
             <p>Easily host and share events with your friends across any social media.</p>
+          </div>
             <NavLink to='./event' className={styles.btn}>
             🎉 Create my event
             </NavLink>
-          </div>
         </div>
       </div>
     </div>
