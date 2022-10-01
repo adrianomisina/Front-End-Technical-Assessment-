@@ -3,6 +3,7 @@ import styles from './EventPage.module.css'
 import Cake from '../../assets/cake.png'
 import Calendar from '../../assets/calendar.png'
 import Ponit from '../../assets/point.png'
+import Arrow from '../../assets/stroke.png'
 
 const EventPage = () => {
   return (
@@ -25,10 +26,14 @@ const EventPage = () => {
                 <p className={styles.date_titles1_p1}>18 August 6:00PM</p>
                 <p>to <span className={styles.date_titles1_p1_span}>19 August 1:00PM</span> UTC +10</p>
               </div>
+
+              <div className={styles.arrow_icon}>
+                <img src={Arrow} alt="arrow-icon" />
+              </div>
             </div>
 
             <div className={styles.date_titles2}>
-
+          
               <div>
                 <img src={Ponit} alt="point-icon" />
               </div>
@@ -37,6 +42,11 @@ const EventPage = () => {
                 <p className={styles.date_titles2_p2}>Street name</p>
                 <p>Suburb, State, Postcode</p>
               </div>
+
+              <div className={styles.arrow_icon2}>
+                <img src={Arrow} alt="arrow-icon" />
+              </div>
+
             </div>
           </div>
         </div>
