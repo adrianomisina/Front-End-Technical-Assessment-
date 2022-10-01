@@ -4,6 +4,13 @@ body {
   height: 100vh;
 }
 
+.container { 
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
 .container_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -106,7 +113,7 @@ filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
 border-radius: 35.1522px;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 800px) {
   .container_grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -125,21 +132,21 @@ border-radius: 35.1522px;
     height: 192px;
     top: 10rem;
     left: 0;
-    margin: 0 10rem;
+    margin: 0rem 11rem;
   }
 
   .heading_text span {
     position: absolute;
     width: 295px;
     height: 81px;
-    margin-left: -9.2rem;
+    margin-left: 5.8rem;
+    left: 0;
     top: 20px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
-    text-align: center;
     background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -179,7 +186,7 @@ border-radius: 35.1522px;
     position: absolute;
     width: 320px;
     height: 55px;
-    top: 60rem;
+    top: 52rem;
     margin-bottom: 4rem !important;
     bottom: 5rem;
     margin-left: -8rem;
@@ -196,8 +203,53 @@ border-radius: 35.1522px;
     left: 0;
     filter: drop-shadow(0px 0px 33.1283px rgba(0, 0, 0, 0.05));
     border-radius: 24.8462px;
-    margin: 2rem 15rem;
+    margin: 2rem 16rem;
   }
 }
 
-@media ()
+@media (max-width: 600px) {
+  .container {
+    width: fit-content;
+  }
+
+  .grid_invite img {
+    margin: 0px 4rem;
+  }
+
+  .heading_text {
+    margin: 0 -1rem;
+  }
+
+  .heading_text h1,
+  .heading_text span {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .heading_text p {
+    width: 321px;
+    height: 36px;
+    margin: 11px 11rem;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .heading_text button {
+    font-size: 1rem;
+    width: 260px;
+    top: 50rem;
+    margin-bottom: 4rem !important;
+    bottom: 5rem;
+    margin-left: -7rem;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+  }
+}
