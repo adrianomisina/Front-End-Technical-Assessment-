@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 306px 15rem;
+}
+
+.cake img {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: calc(50% - 500px/2 + 266px);
+  top: 184px;
+  border-radius: 0px;
+}
+
+.birthday_container_title h1 {
+  position: absolute;
+  width: 333px;
+  height: 37px;
+  left: 240px;
+  top: 194px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  color: #240D57;
+}
+
+.birthday_container_title p {
+  position: absolute;
+  width: 155px;
+  height: 15px;
+  left: 240px;
+  top: 248px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+}
+
