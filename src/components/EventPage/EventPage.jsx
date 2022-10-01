@@ -21,19 +21,19 @@ const EventPage = () => {
                 <img src={Calendar} alt="calendar-icon" />
               </div>
 
-              <div>
+              <div className={styles.cointainer_p}>
                 <p className={styles.date_titles1_p1}>18 August 6:00PM</p>
-                <p>to 19 August 1:00PM UTC +10</p>
+                <p>to <span className={styles.date_titles1_p1_span}>19 August 1:00PM</span> UTC +10</p>
               </div>
             </div>
 
             <div className={styles.date_titles2}>
 
               <div>
-                <img src={Calendar} alt="point-icon" />
+                <img src={Ponit} alt="point-icon" />
               </div>
 
-              <div>
+              <div className={styles.cointainer_p}>
                 <p className={styles.date_titles2_p2}>Street name</p>
                 <p>Suburb, State, Postcode</p>
               </div>

@@ -46,6 +46,7 @@
 .date_titles1,
 .date_titles2 {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .date_titles1_p1,
@@ -56,5 +57,15 @@
   font-size: 18px;
   line-height: 21px;
   color: #240D57;
+}
+
+.cointainer_p {
+  margin: 0.7rem 1rem;
+  line-height: 2rem;
+}
+
+.date_titles1_p1_span {
+  color: #4F4F4F;
+  font-weight: bold;
 }
 
