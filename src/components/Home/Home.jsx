@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from './Home.module.css'
 import InviteImg from '../../assets/invite.png'
+import { NavLink } from 'react-router-dom'
 
 const Home = () => {
+
   return (
     <div className={styles.container}>
       <div className={styles.container_grid}>
@@ -17,7 +19,9 @@ const Home = () => {
                 had events.
             </h1>
             <p>Easily host and share events with your friends across any social media.</p>
-            <button className={styles.btn} >🎉 Create my event</button>
+            <NavLink to='./event' className={styles.btn}>
+            🎉 Create my event
+            </NavLink>
           </div>
         </div>
       </div>
