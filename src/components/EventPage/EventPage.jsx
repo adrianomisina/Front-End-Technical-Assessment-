@@ -40,7 +40,7 @@ const EventPage = () => {
 
               <div className={styles.cointainer_p}>
                 <p className={styles.date_titles2_p2}>Street name</p>
-                <p>Suburb, State, Postcode</p>
+                <p className={styles.date_subtitle2}>Suburb, State, Postcode</p>
               </div>
 
               <div className={styles.arrow_icon2}>
